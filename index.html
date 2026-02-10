@@ -23,6 +23,29 @@
             <span class="number"></span>
         </div>
         <button id="generate-btn">Generate Numbers</button>
+        <section class="partner-section" aria-labelledby="partner-title">
+            <h2 id="partner-title">Partnership Inquiry</h2>
+            <p class="partner-subtext">Tell us a bit about your idea and we’ll get back to you.</p>
+            <form class="partner-form" action="https://formspree.io/f/mgolowkv" method="POST">
+                <label class="field">
+                    <span>Name</span>
+                    <input type="text" name="name" placeholder="Jane Doe" required>
+                </label>
+                <label class="field">
+                    <span>Email</span>
+                    <input type="email" name="email" placeholder="jane@company.com" required>
+                </label>
+                <label class="field">
+                    <span>Company</span>
+                    <input type="text" name="company" placeholder="Acme Inc.">
+                </label>
+                <label class="field">
+                    <span>Message</span>
+                    <textarea name="message" rows="4" placeholder="What would you like to collaborate on?" required></textarea>
+                </label>
+                <button class="partner-submit" type="submit">Send Inquiry</button>
+            </form>
+        </section>
     </div>
     <script src="main.js"></script>
 </body>

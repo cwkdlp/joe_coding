@@ -114,6 +114,71 @@ h1 {
     background-color: var(--accent-hover);
 }
 
+.partner-section {
+    margin-top: 32px;
+    padding-top: 24px;
+    border-top: 1px solid var(--border);
+    text-align: left;
+}
+
+.partner-section h2 {
+    margin: 0 0 8px;
+    font-size: 20px;
+    color: var(--text);
+}
+
+.partner-subtext {
+    margin: 0 0 18px;
+    color: var(--muted);
+    font-size: 14px;
+}
+
+.partner-form {
+    display: grid;
+    gap: 14px;
+}
+
+.field {
+    display: grid;
+    gap: 6px;
+    font-size: 13px;
+    color: var(--muted);
+}
+
+.field input,
+.field textarea {
+    border-radius: 10px;
+    border: 1px solid var(--border);
+    background: transparent;
+    color: var(--text);
+    padding: 10px 12px;
+    font-size: 14px;
+    outline: none;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.field input:focus,
+.field textarea:focus {
+    border-color: var(--accent);
+    box-shadow: 0 0 0 3px rgba(46, 125, 50, 0.18);
+}
+
+.partner-submit {
+    justify-self: start;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: var(--accent);
+    color: #0b120c;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.partner-submit:hover {
+    background-color: var(--accent-hover);
+}
+
 @media (max-width: 640px) {
     .container {
         padding: 28px 24px;
