@@ -313,6 +313,17 @@ p {
     font-size: 13px;
 }
 
+.site-footer a {
+    color: var(--muted);
+}
+
+.footer-links {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
 @media (max-width: 640px) {
     .container {
         padding: 28px 24px;
